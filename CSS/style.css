@@ -1,0 +1,67 @@
+.header{
+    background-color: white;
+    color: rgb(49, 136, 230);
+}
+.menus{
+    color: black;
+
+}
+.container {
+    align-items: center;
+}
+
+.cajasTraffic {
+    float: left;
+    background: brown;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    margin: 3px;
+}
+.cajasSale {
+    float: left;
+    background: brown;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    margin: 3px;
+}
+
+.cajasPageviews {
+    float: left;
+    background: brown;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    margin: 3px;
+}
+
+.cajasVisitors {
+    float: left;
+    background: brown;
+    width: 100px;
+    text-align: center;
+    height: 100px;
+    color: white;
+    margin: 3px;
+}
+  
+@media screen{
+    .cajasTraffic {
+        width: 40%;
+    }
+    .cajasSale {
+        width: 60%;
+    }
+    .cajasPageviews {
+        width: 30%;
+    }
+    .cajasVisitors {
+        width: 80%;
+    }
+}
+  
+
